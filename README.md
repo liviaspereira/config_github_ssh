@@ -1,7 +1,7 @@
 # Configurações iniciais para enviar arquivos para o GitHub
 - Criar uma chave SSH
 - Criar um repositorio 
-- Clonar
+- Clonar repositório
 - Enviar arquivos/códigos para o github
 
 ## Configurando o Gitbub com SSH:
@@ -14,7 +14,7 @@ Além de ser mais segura, é mais simples, pois utiliza um par de chaves, então
 
 Mas o que é esse tal de Git?
 
-Git é uma ferramenta, um software, de versionamento de código, ela permite que ps desenvolvedores colaborem entre si de forma organizada na construção de um projeto que envolva código.
+Git é uma ferramenta, um software, de versionamento de código, ela permite que os desenvolvedores colaborem entre si de forma organizada na construção de um projeto que envolva código.
 
 
 Depois do git instalado, caso use windows, vá na pesquisa e pesquise por git bash:
@@ -53,7 +53,7 @@ https://github.com/settings/keys
 
 - Clicar no botão verde “NEW SSH KEY”
 
-![alt text](https://github.com/liviaspereira/config_github_ssh/blob/main/Imagens/new%20ssh%20key.png)
+![alt text](https://github.com/liviaspereira/config_github_ssh/blob/main/Imagens/ssh%20new%20new.png)
 
 Agora é só dar um nome para a chave e pronto, a chave SSH foi configurada no github \o/.
 
@@ -67,7 +67,7 @@ Agora é só dar um nome para a chave e pronto, a chave SSH foi configurada no g
 
 ### Clique em "NEW"
 
-![alt text](https://github.com/liviaspereira/config_github_ssh/blob/main/Imagens/ssh%20new%20new.png)
+![alt text](https://github.com/liviaspereira/config_github_ssh/blob/main/Imagens/new.png)
 
 ### Agora é só criar o repositório: 
 
@@ -100,9 +100,9 @@ Aparecerá a seguinte mensagem
 
 Se você for na pasta e digitar pelo terminal `ls`, poderá ver todos os arquivos, se preferir pode ir pelo caminho convencional do windows.
 
-Agora é só colocar todos os arquivos, códigos nessa pasta e vamos enviar para o github. 
+Agora é só colocar todos os arquivos, códigos nessa pasta e enviar para o github. 
 
-Para isso podemos dar um 
+Para isso podemos digitar: 
 
 `git add .`   → Esse ponto no final é para indicar que todos os arquivos que estão na pasta vão ser enviados para o github, se quiser enviar um arquivo específico, coloque o nome dele ao invés do ponto. 
 
