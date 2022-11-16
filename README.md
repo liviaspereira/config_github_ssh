@@ -4,7 +4,7 @@
 - Clonar repositório
 - Enviar arquivos/códigos para o github
 
-## Configurando o Gitbub com SSH:
+# Configurando o Gitbub com SSH:
 
 Por que SSH?
 
@@ -87,6 +87,8 @@ Agora é só dar um nome para a chave e pronto, a chave SSH foi configurada no g
 Repositório criado, agora é preciso colocar este repositório no seu computador, para que assim possamos colocar nosso trabalho e enviar ao github.
 Esse processo de colocar no nosso computador é o que chamamos de clone. Então vamos clonar esse repositório.
 
+# Clonando um repositório 
+
 #### Vá no repositório criado e clique no botão verde “CODE”
 
 ![alt text](https://github.com/liviaspereira/config_github_ssh/blob/main/Imagens/clone%20code.png)
@@ -102,6 +104,8 @@ Aparecerá a seguinte mensagem
 ![alt text](https://github.com/liviaspereira/config_github_ssh/blob/main/Imagens/clonado.png)
 
 Se você for na pasta e digitar pelo terminal `ls`, poderá ver todos os arquivos, se preferir pode ir pelo caminho convencional do windows.
+
+# Enviando arquivos para o Github
 
 Agora é só colocar todos os arquivos, códigos nessa pasta e enviar para o github. 
 
@@ -128,6 +132,24 @@ Agora finalmente podemos enviar tudo o que queremos para o github, para isso dig
 `git push`
 
 Agora é só voltar no github atualizar o repositório e lá veremos nossos arquivos \o/
+
+
+# Alguns termos importantes:
+
+Repositório: É um diretório, uma pasta de armazenamento, seja ele local ou remoto.
+
+Branch: É uma ramificação do histórico dentro de um repositório.
+
+Commit: É um conjunto de modificações que compõe o histórico do repositório(compõe uma branch).
+
+Pull: Ele sincroniza as alterações do github(remoto) para o local(seu computador).
+
+Push: É o inverso do pull, ele envia as modificações do seu computador(local) para o github(remoto).
+
+Merge: Une o histórico de duas branches. 
+
+Pull Request (merge request): É a maneira de pedir aos mantenedores para que um conjunto de commits (branch) seja adicionado a uma determinada branch do repositório (merge).
+
 
 
 
