@@ -1,6 +1,6 @@
 # Configurações iniciais para enviar arquivos para o GitHub
 - Criar uma chave SSH
-- Criar um repositorio 
+- Criar um repositório 
 - Clonar repositório
 - Enviar arquivos/códigos para o github
 
@@ -8,7 +8,10 @@
 
 Por que SSH?
 
-Além de ser mais segura, é mais simples, pois utiliza um par de chaves, então caso não possua essas chaves, é preciso gerar. 
+Além de ser mais simples, é mais segura, pois você pode conectar com o github sem fornecer seu nome de usuário e personal access token a cada visita. E você também pode usar uma chave SSH para assinar confirmações. 
+
+Então, caso não possua essas chaves, é preciso gerar.
+
 
 - Primeiro é necessário instalar o Git. Você pode instalar por este link: https://git-scm.com/downloads
 
